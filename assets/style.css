@@ -1,0 +1,31 @@
+.boxes {
+  color: white;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 67px 67px;
+  gap: 10px;
+  font-size: 25px;
+  margin: 40px 30px;
+}
+
+.box {
+  background-color: #444;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+.box-a {
+  grid-column: 1 / span 2;
+}
+.box-b {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+.box-c {
+  grid-column: 1;
+  grid-row: 2;
+}
+.box-d {
+  grid-column: 2;
+  gird-row: 2;
+}
